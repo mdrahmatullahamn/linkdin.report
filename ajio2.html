@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/60679dca1d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajio2</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+        .full-p{
+            height: 600px ;
+            width: 100%;
+            border: 1px solid red;
+        }
+        .navbar {
+            height: 100px;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #ffffff;
+        }
+
+        .right-side {
+            margin-top: 30px;
+            margin-right: 20%;
+        }
+        .right-side h1{
+            font-size:45px;
+            font-weight:800;
+            font-style:normal;
+        }
+
+        .left-side {
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .div1 {
+            display: flex;
+            margin-top: 20px;
+            text-align: center;
+            opacity: 0.6;
+            cursor: pointer;
+        }
+
+        .div1>h3 {
+            justify-content: space-around;
+            margin-right: 18px;
+
+        }
+
+        .div2 {
+            background-color: #fffded;
+            border: 1px solid black;
+            height: 35px;
+            width: 25%;
+            border-radius: 17px;
+            color: #fffded;
+
+
+        }
+
+        .div2 input {
+            margin-left: 10px;
+            height: 30px;
+            width: 70%;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background-color: #fffded;
+        }
+
+        .div2 i {
+            color: black;
+            margin-top: 7px;
+        }
+
+        .div3 {
+            margin-top: 12px;
+        }
+
+        .div3 i {
+            margin-left: 15px;
+        }
+        /* .cont{
+            height: 600px;
+            width: 100%;
+            border:1px solid black; */
+        
+        .fu-page{
+            height: 500px;
+            width: 100%;
+            border: 1px solid red;
+        }
+        .le-side{
+            height: 500px;
+            width: 30%;
+            border: 1px solid black;
+        }
+        .le-side p{
+            margin-top: 15px;
+            margin-left: 15%;
+            opacity: 0.7;
+
+        }
+        .first h1{
+            margin-top:10px;
+            margin-left: 20%;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .first h3{
+            margin-top:10px;
+            margin-left: 20%;
+            opacity: 0.9;
+        }
+        .first input{
+            margin-top:10px;
+            margin-left: 25%;
+        }
+        .tshirt h1{
+            margin-top: 40px;
+            margin-left: 24%;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .tshirt input{
+            margin-top:10px;
+            margin-left: 28%;
+        }
+        .tshirt h4{
+            margin-left:28% ;
+            margin-top: 15px;
+            opacity: 0.8;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="full-p">
+        <div class="navbar">
+            <div class="right-side">
+                <h1>AJIO</h1>
+            </div>
+            <div class="left-side">
+                <div class="div1">
+                    <h3>MEN</h3>
+                    <h3>WOMEN</h3>
+                    <h3>KIDS</h3>
+                    <h3>INDIE</h3>
+                    <H3>HOME AND KITCHEN</H3>
+                </div>
+                <div class="div2">
+                    <input type="text" placeholder="SEARCH AJIO">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="div3">
+                    <i class="fa-brands fa-gratipay"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+        </div>
+        <div class="fu-page">
+            <div class="le-side">
+                <p>HOME / D2C FASHION</p>
+                  <div class="first">                    
+                   <h1>Refine By</h1>
+                   <h3>- Gender</h3>
+                   <input type="checkbox" id="theman" name="mygender">
+                   <label >Men (159 320)</label><br>
+                   <input type="checkbox" id="thewoman" name="mygender">
+                   <label>women (18)</label>
+                  </div>
+                  <div class="tshirt">
+                    <h1>- Catogery</h1>
+                    <input type="checkbox">
+                    <label for="">Tshirt(74,389)</label><br>
+                    <input type="checkbox">
+                    <label for="">Shirts(50,987</label><br>
+                    <input type="checkbox">
+                    <label for="">Sweatshirt & Hoodies(23,756</label><br>
+                    <input type="checkbox">
+                    <label for="">Kurta & shirts(35,908</label><br>
+                    <input type="checkbox">
+                    <label for="">jack & cots(26,865</label>
+                    <h4>MORE</h4>
+                  </div>           
+                  <div class="h2t">
+                    <h2>+  Price</h2>
+                  </div>
+                  <div class="h2t">
+                    <h2>+  Brands</h2>
+                  </div>
+                  <div class="h2t">
+                    <h2>+  Occasion</h2>
+                  </div>
+                  <div class="h2t">
+                    <h2>+  Discount</h2>
+                  </div>
+                  <div class="h2t">
+                    <h2>+  Colors</h2>
+                  </div>
+                  <div class="h2t">
+                    <h2>+  Size & Fit</h2>
+                  </div>
+            </div>
+            
+
+        </div>
+     </div>
+</body>
+
+</html>
