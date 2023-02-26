@@ -20,10 +20,34 @@
 // for (var i=1;  i<=100;i++){
 //     console.log(i) 
 
-let str = '45';
+// let str = '45';
 
-for (let i = 0; i < 9; i++) {
-  str = str + i;
-}
+// for (let i = 0; i < 9; i++) {
+//   str = str + i;
+// }
 
-console.log(str);
+// console.log(str);
+
+// Q .10 find given number is prsent iin given array or not ,if founnd  returen true else false
+
+
+var array = [1,2,443,454,232,546,23,567,676,2342,565,4,2,6];
+var number = 6;
+
+// array.includes(23);
+// console.log(array. includes);
+var falg = false;
+    for (var i = 0; i <array.length; i++) {
+        if (array[i]===number) {
+            falg = true;
+        }
+    }
+    if (falg === false) {
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+
+
+
