@@ -36,18 +36,26 @@ var number = 6;
 
 // array.includes(23);
 // console.log(array. includes);
-var falg = false;
-    for (var i = 0; i <array.length; i++) {
-        if (array[i]===number) {
-            falg = true;
-        }
-    }
-    if (falg === false) {
-        console.log("true")
-    }
-    else {
-        console.log("false")
-    }
+// var falg = false;
+//     for (var i = 0; i <array.length; i++) {
+//         if (array[i]===number) {
+//             falg = true;
+//         }
+//     }
+//     if (falg === false) {
+//         console.log("true")
+//     }
+//     else {
+//         console.log("false")
+//     }
+// Q . Given an array make an object with key of that specific index with value ;
+ var array = [9,8,7,6,5,4,3,2,1,0]
+var result={}
+for( var i=0; i<array.length;i++){
+    result[i]= array[i].toString();
+}
+console.log(result)
+
 
 
 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .v22{
+            margin-top: 8%;
+        }
+        .v2 {
+            display: flex;
+            /* margin-left: 45%; */
+        }
+
+        .v3 {
+            display: flex;
+            border: 2px solid #3b5998;
+            width: 14%;
+            height: 40px;
+            margin-left: 35%;
+        }
+
+        .v3>img {
+            height: 30px;
+            margin-top: 5px;
+            margin-left: 14px;
+        }
+
+        .v3>h4 {
+            margin-top: 10px;
+            margin-left: 8px;
+            color: #3b5998;
+            font-size: 18px;
+        }
+
+        .v4 {
+            display: flex;
+            border: 2px solid #df4a32;
+            width: 14%;
+            height: 40px;
+            margin-left: 1%;
+        }
+
+        .v4>img {
+            height: 30px;
+            margin-top: 5px;
+            margin-left: 14px;
+        }
+
+        .v4>h4 {
+            margin-top: 10px;
+            margin-left: 8px;
+            color: #df4a32;
+            font-size: 18px;
+        }
+
+        .v1>h1 {
+            font-size: 26px;
+            margin-left: 37.2%;
+        }
+
+        .v1>h4 {
+            font-size: 17px;
+            margin-left: 37.2%;
+        }
+        input{
+            margin-left: 37.2%;
+            width: 24%;
+            height: 30px;
+            margin-top: 10px;
+            outline: none;
+    
+        }
+        label{
+            margin-left: 37.4%;
+            /* margin-top: 10px; */
+        }
+        #val{
+            width: 12%;
+            margin-top: 20px;
+            height: 35px;
+            background-color: #d5a249;
+            border: none;
+            outline: none;
+            color: white;
+        }
+        .w1{
+            margin-left: 37%;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="v22">
+        <div class="v1">
+            <h1>Welcome to AJIO</h1>
+            <h4>Join / Sign In using</h4>
+        </div>
+        <div class="v2">
+            <div class="v3">
+                <img src="facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png" alt="">
+                <h4>FACEBOOK</h4>
+            </div>
+            <div class="v4">
+                <img src="New-Google-Logo.jpg" alt="">
+                <h4>GOOGLE</h4>
+            </div>
+        </div>
+
+        <form onsubmit="register(event)">
+            <label for="">Name</label> <br>
+            <input id="userName" type="text" placeholder="Enter your name"> <br>
+            <label for="">Email</label> <br>
+            <input id="userEmail" type="email" placeholder="Enter your email"> <br>
+            <label for="">Password</label> <br>
+            <input id="userPassword" type="password" placeholder="Enter your password"> <br>
+            <input id="val" type="submit" value="Register">
+            <div class="w1">
+                <h4>By Signing In, I agree <a href="">to Terms and Conditions.</a> </h4>
+            </div>
+        </form>
+    </div>
+    <script src="./ajio.js"></script>
+</body>
+
+</html>
