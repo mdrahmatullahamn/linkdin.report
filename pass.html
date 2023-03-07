@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>Document</title>
     <style>
         .v22{
             margin-top: 8%;
@@ -67,39 +66,29 @@
             margin-left: 37.2%;
         }
         input{
-            margin-left: 37.2%;
-            width: 24%;
+            /* margin-left: 37.2%; */
+            width: 36%;
             height: 30px;
             margin-top: 10px;
             outline: none;
-    
         }
-        label{
-            margin-left: 37.4%;
-            /* margin-top: 10px; */
+        .m10{
+            margin-left: 35%;
         }
-        #val{
-            width: 12%;
-            margin-top: 20px;
-            height: 35px;
-            background-color: #d5a249;
-            border: none;
-            outline: none;
-            color: white;
-        }
-        .w1{
-            margin-left: 37%;
-            opacity: 0.8;
-        }
+        
+        
+        button{
+        width: 15%;
+        height: 30px;
+        background-color: #d5a249;
+        background-color: none;
+        border: none;
+        } */
     </style>
 </head>
-
 <body>
     <div class="v22">
         <div class="v1">
-            <h1>Welcome to AJIO</h1>
-            <h4>Join / Sign In using</h4>
-        </div><div class="v1">
             <h1>Welcome to AJIO</h1>
             <h4>Join / Sign In using</h4>
         </div>
@@ -113,21 +102,11 @@
                 <h4>GOOGLE</h4>
             </div>
         </div>
-
-        <form onsubmit="register(event)">
-            <label for="">Name</label> <br>
-            <input id="userName" type="text" placeholder="Enter your name"> <br>
-            <label for="">Email</label> <br>
-            <input id="userEmail" type="email" placeholder="Enter your email"> <br>
-            <label for="">Password</label> <br>
-            <input id="userPassword" type="password" placeholder="Enter your password"> <br>
-            <input id="val" type="submit" value="Register">
-            <div class="w1">
-                <h4>By Signing In, I agree <a href="">to Terms and Conditions.</a> </h4>
-            </div>
-        </form>
+    <div class="m10">
+        <h1>set password</h1>
+        <input type="password" id="password"> <br>
+        <button onclick="newPassword()">new-password</button>
     </div>
     <script src="./ajio.js"></script>
 </body>
-
 </html>
